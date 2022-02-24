@@ -1,0 +1,33 @@
+.badge-icon{
+  margin-right: clamp(10px , 1.5vw , 30px);
+   
+}
+
+.icon{
+  font-size: clamp(20px , 5vw , 35px) !important;
+  cursor: pointer;
+  color : hsl(0, 0%, 64%);
+ 
+}
+
+.side-bar-icons{
+  margin-right: 10px;
+  font-size: clamp(15px , 2vw , 25px) !important;
+}
+
+.arrow-green{
+  color : green
+}
+
+.arrow-red{
+  color : red;
+}
+
+.visibility-icon{
+ 
+  margin-right : 5px;
+}
+
+/* .datagrid{
+  font-size: 100px;
+} */
