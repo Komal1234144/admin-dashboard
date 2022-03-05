@@ -1,13 +1,11 @@
 import { Publish } from '@mui/icons-material';
-import { useContext } from 'react';
-import {Context} from '../../Context';
 import Chart from '../../Components/Chart/Chart';
 import { chartProductData } from '../../data';
 import * as styled from './Product.styled';
 import { useNavigate } from 'react-router-dom';
 //placeholder={`${product.Productname}`}
 const Product = () =>{
- const {product} = useContext(Context);
+//const {product} = useContext(Context);
 const navigate = useNavigate();
 
     return(

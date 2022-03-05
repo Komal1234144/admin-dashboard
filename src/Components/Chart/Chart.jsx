@@ -1,4 +1,3 @@
-import {chartUserData} from '../../data';
 import styled from 'styled-components';
 import CommonChart from '../CommonChart';
 import {mobile} from '../../Responsive';

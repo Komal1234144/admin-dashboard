@@ -2,7 +2,7 @@
 import { LineChart, Line,
      XAxis,
       CartesianGrid, Tooltip, 
-      Legend, ResponsiveContainer } from 'recharts';
+      ResponsiveContainer } from 'recharts';
 
 
 const CommonChart = ({data , datakeyXaxis , datakeyLine }) => {

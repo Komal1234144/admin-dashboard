@@ -5,7 +5,7 @@ import { Context } from '../../Context';
 
  const User = () => {
 
-  const {user} = useContext(Context);
+  //const {user} = useContext(Context);
 
   return (
       <styled.Container>
