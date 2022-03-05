@@ -5,7 +5,7 @@ A admin dashboard panel that can be attached to any website to perform the CRUD 
 
 <h1>Installation</h1>
   
-    Run 'npm' to install dpendencies 
+    Run 'npm install' to install dpendencies 
     
     Run 'npm start' to start the website
   
