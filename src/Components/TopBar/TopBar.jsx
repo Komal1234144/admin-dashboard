@@ -6,10 +6,11 @@ import * as styled from './TopBar.styled';
 import '../../Plain.css';
 import { useContext, useState } from 'react';
 import { Context } from '../../Context';
+import {useNavigate} from 'react-router-dom'
 
 const TopBar = () => {
   const {open , setOpen} = useContext(Context);
-  
+  const navigate = useNavigate()
   const handleMenuClick=()=>{
          setOpen(!open)
          
@@ -20,7 +21,7 @@ const TopBar = () => {
      <styled.MenuBar onClick={handleMenuClick}>
        <Menu/>
      </styled.MenuBar>   
-      <styled.Logo>
+      <styled.Logo onClick={()=>navigate('/')}>
          Admin Dashboard
       </styled.Logo>
       <styled.Icons>
@@ -30,7 +31,7 @@ const TopBar = () => {
         <Badge className='badge-icon' badgeContent={4} color="primary">
          <Language className='icon'/>
         </Badge>
-        <Badge className='badge-icon' color="primary">
+        <Badge id="settings-icon" className='badge-icon' color="primary">
          <Settings className='icon'/>
         </Badge>
         

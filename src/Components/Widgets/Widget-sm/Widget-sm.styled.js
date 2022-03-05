@@ -7,6 +7,11 @@ export const Container = styled.div`
  flex-direction: column;
  box-shadow: 3px 5px 16px -1px rgba(0,0,0,0.4);
 -webkit-box-shadow: 3px 5px 16px -1px rgba(0,0,0,0.4); 
+
+${mobile({  
+   margin : '10px 5px',
+})}
+
 `
 
 export const Title = styled.p`
@@ -56,9 +61,7 @@ export const UserJob = styled.p`
 export const Button = styled.button`
  display: flex;
  align-items: center;
- 
- height: 30px;
- width : 80px;
+ padding : 0.2em 0.4em;
  border-radius: 10px;
  border : none;
  background-color: #ebe7ee;

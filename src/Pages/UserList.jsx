@@ -18,6 +18,17 @@ ${mobile({
   margin : 0,
  // border : '1px solid red'
 })}
+
+p{
+  display : none;
+
+  @media(max-width:1250px){
+    display : block;
+    font-size: clamp(15px , 2vw , 25px);
+    text-align: center;
+    color : green;
+  }
+}
 `
 const User = styled.div`
 display: flex;
@@ -124,6 +135,7 @@ const deleteItem=(id)=>{
 
   return(
       <Container>
+      <p>Please scroll horizontally to see the full table</p>
       <DataGrid
        class='datagrid'
       style={{fontSize:'17px' }}

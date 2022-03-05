@@ -12,7 +12,8 @@ export const Container = styled.div`
 
 ${mobile({
    maxWidth : '100vw',
-   margin : '10px 2px'
+   margin : '10px 5px',
+   padding : '8px'
 })}
 `
 export const Title = styled.p`
@@ -41,8 +42,8 @@ export const TableHeading = styled.th`
 `
 
 export const Image = styled.img`
- width : clamp(30px , 5vw , 40px);
- height : clamp(30px , 5vw , 40px);
+ width : clamp(25px , 5vw , 40px);
+ height : clamp(25px , 5vw , 40px);
  border-radius: 50%;
  border : 1px solid black;
  object-fit: contain;
@@ -52,6 +53,7 @@ export const Customer = styled.p`
  margin-left: 10px;
 
  ${mobile({
+   marginLeft : '8px',
   fontSize : '15px'
 })}
 `
@@ -79,5 +81,10 @@ export const Button = styled.button`
 
  color : ${(props)=>props.type==='approved' ? 
           '#2ca03d' : props.type==='declined' ? 
-          '#ff476f' : '#ba78ba' };                 
+          '#ff476f' : '#ba78ba' };   
+          
+   ${mobile({
+     height: '30px',
+     width : '60px'
+   })}       
 `

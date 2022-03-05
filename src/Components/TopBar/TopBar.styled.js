@@ -1,3 +1,4 @@
+import { NoEncryption } from '@mui/icons-material';
 import styled from 'styled-components';
 import {mobile} from '../../Responsive';
 
@@ -34,6 +35,11 @@ export const Icons = styled.div`
 display : flex;
 align-items: center;
 
+#settings-icon{
+  ${mobile({
+    display : 'none'
+  })}
+}
 `
 
 export const Image = styled.img`
