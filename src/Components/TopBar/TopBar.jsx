@@ -4,7 +4,7 @@ import {Language, Menu} from '@mui/icons-material';
 import {Settings}from '@mui/icons-material';
 import * as styled from './TopBar.styled';
 import '../../Plain.css';
-import { useContext, useState } from 'react';
+import { useContext} from 'react';
 import { Context } from '../../Context';
 import {useNavigate} from 'react-router-dom'
 

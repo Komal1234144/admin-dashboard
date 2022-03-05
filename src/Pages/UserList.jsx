@@ -64,11 +64,6 @@ border-radius: 10px;
 cursor : pointer;
 `
 
-const Link = styled.a`
-text-decoration: none;
-`
-
-
 const UserList = () => {
 
 
