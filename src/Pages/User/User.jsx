@@ -1,7 +1,5 @@
 import {PersonOutline , CalendarToday, PhoneAndroid , MailOutline , GpsNotFixed, Publish} from '@mui/icons-material';
 import * as styled from './User.styled';
-import { useContext } from 'react';
-import { Context } from '../../Context';
 
  const User = () => {
 
